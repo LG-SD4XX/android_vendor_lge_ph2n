@@ -21,9 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ph2n/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/lge/ph2n/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/lge/ph2n/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-    vendor/lge/ph2n/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/lge/ph2n/proprietary/bin/fmfactorytest:system/bin/fmfactorytest \
-    vendor/lge/ph2n/proprietary/bin/fmfactorytestserver:system/bin/fmfactorytestserver \
     vendor/lge/ph2n/proprietary/bin/fstman:system/bin/fstman \
     vendor/lge/ph2n/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/ph2n/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
@@ -161,7 +158,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ph2n/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/lge/ph2n/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/lge/ph2n/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
-    vendor/lge/ph2n/proprietary/framework/qcom.fmradio.jar:system/framework/qcom.fmradio.jar \
     vendor/lge/ph2n/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/lge/ph2n/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/lge/ph2n/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
@@ -178,7 +174,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ph2n/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/ph2n/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lge/ph2n/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
-    vendor/lge/ph2n/proprietary/lib/libqcomfm_jni.so:system/lib/libqcomfm_jni.so \
     vendor/lge/ph2n/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/ph2n/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/lge/ph2n/proprietary/lib/libril.so:system/lib/libril.so \
