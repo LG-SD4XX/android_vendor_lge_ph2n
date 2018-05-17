@@ -17,11 +17,9 @@
 PRODUCT_COPY_FILES += \
     vendor/lge/ph2n/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/lge/ph2n/proprietary/bin/cnd:system/bin/cnd \
-    vendor/lge/ph2n/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/lge/ph2n/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/lge/ph2n/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/lge/ph2n/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-    vendor/lge/ph2n/proprietary/bin/fstman:system/bin/fstman \
     vendor/lge/ph2n/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/ph2n/proprietary/bin/iop:system/bin/iop \
     vendor/lge/ph2n/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
@@ -109,24 +107,16 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ph2n/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
     vendor/lge/ph2n/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/lge/ph2n/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/lge/ph2n/proprietary/etc/firmware/hbtp/hbtpcfg.dat:system/etc/firmware/hbtp/hbtpcfg.dat \
-    vendor/lge/ph2n/proprietary/etc/firmware/hbtp/hbtpcfg_8917.dat:system/etc/firmware/hbtp/hbtpcfg_8917.dat \
-    vendor/lge/ph2n/proprietary/etc/firmware/hbtp/qtc800s_dsp.bin:system/etc/firmware/hbtp/qtc800s_dsp.bin \
     vendor/lge/ph2n/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
     vendor/lge/ph2n/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
     vendor/lge/ph2n/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
     vendor/lge/ph2n/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
     vendor/lge/ph2n/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
-    vendor/lge/ph2n/proprietary/etc/firmware/qtc800s.bin:system/etc/firmware/qtc800s.bin \
-    vendor/lge/ph2n/proprietary/etc/firmware/qtc800s.cfg:system/etc/firmware/qtc800s.cfg \
     vendor/lge/ph2n/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
     vendor/lge/ph2n/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
     vendor/lge/ph2n/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
     vendor/lge/ph2n/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/lge/ph2n/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
-    vendor/lge/ph2n/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
-    vendor/lge/ph2n/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
-    vendor/lge/ph2n/proprietary/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
     vendor/lge/ph2n/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/lge/ph2n/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/lge/ph2n/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
@@ -159,18 +149,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ph2n/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/lge/ph2n/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/lge/ph2n/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
-    vendor/lge/ph2n/proprietary/vendor/bin/enable_uninstall.sh:system/vendor/bin/enable_uninstall.sh \
-    vendor/lge/ph2n/proprietary/vendor/bin/hbtp_daemon:system/vendor/bin/hbtp_daemon \
-    vendor/lge/ph2n/proprietary/vendor/bin/mm-qjpeg-dec-test:system/vendor/bin/mm-qjpeg-dec-test \
-    vendor/lge/ph2n/proprietary/vendor/bin/mm-qjpeg-enc-test:system/vendor/bin/mm-qjpeg-enc-test \
-    vendor/lge/ph2n/proprietary/vendor/bin/mm-qomx-idec-test:system/vendor/bin/mm-qomx-idec-test \
-    vendor/lge/ph2n/proprietary/vendor/bin/mm-qomx-ienc-test:system/vendor/bin/mm-qomx-ienc-test \
-    vendor/lge/ph2n/proprietary/vendor/bin/ntcode_listing.sh:system/vendor/bin/ntcode_listing.sh \
     vendor/lge/ph2n/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
-    vendor/lge/ph2n/proprietary/vendor/bin/qjpeg-dma-test:system/vendor/bin/qjpeg-dma-test \
     vendor/lge/ph2n/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/lge/ph2n/proprietary/vendor/bin/qseeproxysampledaemon:system/vendor/bin/qseeproxysampledaemon \
-    vendor/lge/ph2n/proprietary/vendor/bin/rmplb.sh:system/vendor/bin/rmplb.sh \
     vendor/lge/ph2n/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/lge/ph2n/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/lge/ph2n/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
@@ -438,10 +419,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ph2n/proprietary/vendor/lib/libfastrpc_utf_stub.so:system/vendor/lib/libfastrpc_utf_stub.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libflash_front.so:system/vendor/lib/libflash_front.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libhbtpclient.so:system/vendor/lib/libhbtpclient.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libhbtpdsp.so:system/vendor/lib/libhbtpdsp.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libhbtpfrmwk.so:system/vendor/lib/libhbtpfrmwk.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libhbtpjni.so:system/vendor/lib/libhbtpjni.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libjni_dualcamera.so:system/vendor/lib/libjni_dualcamera.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
@@ -573,9 +550,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmsw_math.so:system/vendor/lib/libmmsw_math.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmsw_opencl.so:system/vendor/lib/libmmsw_opencl.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmsw_platform.so:system/vendor/lib/libmmsw_platform.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libmmwfdinterface.so:system/vendor/lib/libmmwfdinterface.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libmmwfdsinkinterface.so:system/vendor/lib/libmmwfdsinkinterface.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libmmwfdsrcinterface.so:system/vendor/lib/libmmwfdsrcinterface.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libnative_audio_latency_jni.so:system/vendor/lib/libnative_audio_latency_jni.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libomx-dts.so:system/vendor/lib/libomx-dts.so \
     vendor/lge/ph2n/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
@@ -640,47 +614,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ph2n/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libwbc_jni.so:system/vendor/lib/libwbc_jni.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libwfdavenhancements.so:system/vendor/lib/libwfdavenhancements.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libwfdhdcpcp.so:system/vendor/lib/libwfdhdcpcp.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libwfdmmservice.so:system/vendor/lib/libwfdmmservice.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libwfdmmsink.so:system/vendor/lib/libwfdmmsink.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libwfdmmsrc.so:system/vendor/lib/libwfdmmsrc.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libwfdnative.so:system/vendor/lib/libwfdnative.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libwfdrtsp.so:system/vendor/lib/libwfdrtsp.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libwfdservice.so:system/vendor/lib/libwfdservice.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libwfdsm.so:system/vendor/lib/libwfdsm.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libwfduibcinterface.so:system/vendor/lib/libwfduibcinterface.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libwfduibcsink.so:system/vendor/lib/libwfduibcsink.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libwfduibcsinkinterface.so:system/vendor/lib/libwfduibcsinkinterface.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libwfduibcsrc.so:system/vendor/lib/libwfduibcsrc.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/lge/ph2n/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/lge/ph2n/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/mmi_audio.so:system/vendor/lib/mmi_audio.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/mmi_battery.so:system/vendor/lib/mmi_battery.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/mmi_bluetooth.so:system/vendor/lib/mmi_bluetooth.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/mmi_camera.so:system/vendor/lib/mmi_camera.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/mmi_cpu.so:system/vendor/lib/mmi_cpu.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/mmi_flashlight.so:system/vendor/lib/mmi_flashlight.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/mmi_fm.so:system/vendor/lib/mmi_fm.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/mmi_gps.so:system/vendor/lib/mmi_gps.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/mmi_headset.so:system/vendor/lib/mmi_headset.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/mmi_key.so:system/vendor/lib/mmi_key.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/mmi_lcd.so:system/vendor/lib/mmi_lcd.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/mmi_light.so:system/vendor/lib/mmi_light.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/mmi_memory.so:system/vendor/lib/mmi_memory.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/mmi_nfc.so:system/vendor/lib/mmi_nfc.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/mmi_sensor.so:system/vendor/lib/mmi_sensor.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/mmi_sim.so:system/vendor/lib/mmi_sim.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/mmi_storage.so:system/vendor/lib/mmi_storage.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/mmi_sysinfo.so:system/vendor/lib/mmi_sysinfo.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/mmi_touch.so:system/vendor/lib/mmi_touch.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/mmi_wifi.so:system/vendor/lib/mmi_wifi.so \
     vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/AlacDecoderModule.so.1:system/vendor/lib/rfsa/adsp/AlacDecoderModule.so.1 \
     vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/ApeDecoderModule.so.1:system/vendor/lib/rfsa/adsp/ApeDecoderModule.so.1 \
     vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/AudioSphereModule.so.1:system/vendor/lib/rfsa/adsp/AudioSphereModule.so.1 \
