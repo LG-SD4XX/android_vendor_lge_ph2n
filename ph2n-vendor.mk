@@ -16,22 +16,262 @@
 
 PRODUCT_COPY_FILES += \
     vendor/lge/ph2n/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/lge/ph2n/proprietary/bin/cnd:system/bin/cnd \
-    vendor/lge/ph2n/proprietary/bin/dpmd:system/bin/dpmd \
-    vendor/lge/ph2n/proprietary/bin/fingerprintd:system/bin/fingerprintd \
-    vendor/lge/ph2n/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-    vendor/lge/ph2n/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/ph2n/proprietary/bin/iop:system/bin/iop \
-    vendor/lge/ph2n/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
-    vendor/lge/ph2n/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/ph2n/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/lge/ph2n/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/lge/ph2n/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/lge/ph2n/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/lge/ph2n/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/lge/ph2n/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/lge/ph2n/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/ph2n/proprietary/bin/wcnss_service:system/bin/wcnss_service \
+    vendor/lge/ph2n/proprietary/etc/drc/drc_cfg_5.1.txt:system/etc/drc/drc_cfg_5.1.txt \
+    vendor/lge/ph2n/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
+    vendor/lge/ph2n/proprietary/etc/firmware/DE.o.msm8937:system/etc/firmware/DE.o.msm8937 \
+    vendor/lge/ph2n/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
+    vendor/lge/ph2n/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
+    vendor/lge/ph2n/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
+    vendor/lge/ph2n/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
+    vendor/lge/ph2n/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
+    vendor/lge/ph2n/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
+    vendor/lge/ph2n/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/lge/ph2n/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
+    vendor/lge/ph2n/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
+    vendor/lge/ph2n/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
+    vendor/lge/ph2n/proprietary/vendor/bin/qseeproxysampledaemon:system/vendor/bin/qseeproxysampledaemon \
+    vendor/lge/ph2n/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/lge/ph2n/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
+    vendor/lge/ph2n/proprietary/vendor/lib/hw/gatekeeper.msm8937.so:system/vendor/lib/hw/gatekeeper.msm8937.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/hw/keystore.msm8937.so:system/vendor/lib/hw/keystore.msm8937.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/hw/sound_trigger.primary.msm8937.so:system/vendor/lib/hw/sound_trigger.primary.msm8937.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libAlacSwDec.so:system/vendor/lib/libAlacSwDec.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libApeSwDec.so:system/vendor/lib/libApeSwDec.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libDxHdcp.so:system/vendor/lib/libDxHdcp.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libGPTEE.so:system/vendor/lib/libGPTEE.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libGPreqcancel.so:system/vendor/lib/libGPreqcancel.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libGPreqcancel_svc.so:system/vendor/lib/libGPreqcancel_svc.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libMpeg4SwEncoder.so:system/vendor/lib/libMpeg4SwEncoder.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libOmxAlacDec.so:system/vendor/lib/libOmxAlacDec.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libOmxAlacDecSw.so:system/vendor/lib/libOmxAlacDecSw.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libOmxApeDec.so:system/vendor/lib/libOmxApeDec.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libOmxApeDecSw.so:system/vendor/lib/libOmxApeDecSw.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libOmxVideoDSMode.so:system/vendor/lib/libOmxVideoDSMode.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libSecureExtAuthJNI.so:system/vendor/lib/libSecureExtAuthJNI.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libadm.so:system/vendor/lib/libadm.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libadpcmdec.so:system/vendor/lib/libadpcmdec.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libadsp_default_listener.so:system/vendor/lib/libadsp_default_listener.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libaudiodevarb.so:system/vendor/lib/libaudiodevarb.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libaudiohookclient.so:system/vendor/lib/libaudiohookclient.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libaudioparsers.so:system/vendor/lib/libaudioparsers.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libavenhancements.so:system/vendor/lib/libavenhancements.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libdrc.so:system/vendor/lib/libdrc.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libesepm.so:system/vendor/lib/libesepm.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libfastrpc_aue_stub.so:system/vendor/lib/libfastrpc_aue_stub.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libfastrpc_utf_stub.so:system/vendor/lib/libfastrpc_utf_stub.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/liblistensoundmodel2.so:system/vendor/lib/liblistensoundmodel2.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libmdsprpc.so:system/vendor/lib/libmdsprpc.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libmmi.so:system/vendor/lib/libmmi.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libmmipstreamnetwork.so:system/vendor/lib/libmmipstreamnetwork.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libmmparser_lite.so:system/vendor/lib/libmmparser_lite.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libnative_audio_latency_jni.so:system/vendor/lib/libnative_audio_latency_jni.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libomx-dts.so:system/vendor/lib/libomx-dts.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libqisl.so:system/vendor/lib/libqisl.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libqti-at.so:system/vendor/lib/libqti-at.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libqti-gt.so:system/vendor/lib/libqti-gt.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libqti-wl.so:system/vendor/lib/libqti-wl.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libscveBlobDescriptor.so:system/vendor/lib/libscveBlobDescriptor.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libscveBlobDescriptor_stub.so:system/vendor/lib/libscveBlobDescriptor_stub.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libscveCleverCapture.so:system/vendor/lib/libscveCleverCapture.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libscveCleverCapture_stub.so:system/vendor/lib/libscveCleverCapture_stub.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libscveCommon.so:system/vendor/lib/libscveCommon.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libscveCommon_stub.so:system/vendor/lib/libscveCommon_stub.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libscveFaceRecognition.so:system/vendor/lib/libscveFaceRecognition.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libscveImageCloning.so:system/vendor/lib/libscveImageCloning.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libscveImageCorrection.so:system/vendor/lib/libscveImageCorrection.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libscveImageRemoval.so:system/vendor/lib/libscveImageRemoval.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libscveMotionVector.so:system/vendor/lib/libscveMotionVector.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libscveObjectMatting.so:system/vendor/lib/libscveObjectMatting.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libscveObjectMatting_stub.so:system/vendor/lib/libscveObjectMatting_stub.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libscveObjectSegmentation.so:system/vendor/lib/libscveObjectSegmentation.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libscveObjectSegmentation_stub.so:system/vendor/lib/libscveObjectSegmentation_stub.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libscveObjectTracker.so:system/vendor/lib/libscveObjectTracker.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libscveObjectTracker_stub.so:system/vendor/lib/libscveObjectTracker_stub.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libscvePanorama.so:system/vendor/lib/libscvePanorama.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libscvePanorama_lite.so:system/vendor/lib/libscvePanorama_lite.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libscveTextReco.so:system/vendor/lib/libscveTextReco.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libscveTextRecoPostProcessing.so:system/vendor/lib/libscveTextRecoPostProcessing.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libscveTextReco_stub.so:system/vendor/lib/libscveTextReco_stub.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libsdsprpc.so:system/vendor/lib/libsdsprpc.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libsi.so:system/vendor/lib/libsi.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libswvdec.so:system/vendor/lib/libswvdec.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/libwbc_jni.so:system/vendor/lib/libwbc_jni.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/AlacDecoderModule.so.1:system/vendor/lib/rfsa/adsp/AlacDecoderModule.so.1 \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/ApeDecoderModule.so.1:system/vendor/lib/rfsa/adsp/ApeDecoderModule.so.1 \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/AudioSphereModule.so.1:system/vendor/lib/rfsa/adsp/AudioSphereModule.so.1 \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/DTS_HPX_MODULE.so.1:system/vendor/lib/rfsa/adsp/DTS_HPX_MODULE.so.1 \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/DolbyMobileModule.so.1:system/vendor/lib/rfsa/adsp/DolbyMobileModule.so.1 \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/DolbySurroundModule.so.1:system/vendor/lib/rfsa/adsp/DolbySurroundModule.so.1 \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/EtsiAmrWbPlusDecModule.so.1:system/vendor/lib/rfsa/adsp/EtsiAmrWbPlusDecModule.so.1 \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/EtsiEaacPlusEncAndCmnModule.so.1:system/vendor/lib/rfsa/adsp/EtsiEaacPlusEncAndCmnModule.so.1 \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/FlacDecoderModule.so.1:system/vendor/lib/rfsa/adsp/FlacDecoderModule.so.1 \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/HeaacDecoderModule.so.1:system/vendor/lib/rfsa/adsp/HeaacDecoderModule.so.1 \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/SAPlusCmnModule.so.1:system/vendor/lib/rfsa/adsp/SAPlusCmnModule.so.1 \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/SrsTruMediaModule.so.1:system/vendor/lib/rfsa/adsp/SrsTruMediaModule.so.1 \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/VorbisDecoderModule.so.1:system/vendor/lib/rfsa/adsp/VorbisDecoderModule.so.1 \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/WmaProDecoderModule.so.1:system/vendor/lib/rfsa/adsp/WmaProDecoderModule.so.1 \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/WmaStdDecoderModule.so.1:system/vendor/lib/rfsa/adsp/WmaStdDecoderModule.so.1 \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/dummylibdspCV_skel.so:system/vendor/lib/rfsa/adsp/dummylibdspCV_skel.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/dummylibdspCV_skel_intermediate.so:system/vendor/lib/rfsa/adsp/dummylibdspCV_skel_intermediate.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/dummylibfastcvadsp.so:system/vendor/lib/rfsa/adsp/dummylibfastcvadsp.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/dummylibfastcvadsp_intermediate.so:system/vendor/lib/rfsa/adsp/dummylibfastcvadsp_intermediate.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/fastrpc_shell_0:system/vendor/lib/rfsa/adsp/fastrpc_shell_0 \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/fluence_voiceplus_module.so.1:system/vendor/lib/rfsa/adsp/fluence_voiceplus_module.so.1 \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so:system/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so:system/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libadsp_jpege_skel.so:system/vendor/lib/rfsa/adsp/libadsp_jpege_skel.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libobjectMattingApp_skel.so:system/vendor/lib/rfsa/adsp/libobjectMattingApp_skel.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so:system/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libscveCleverCapture_skel.so:system/vendor/lib/rfsa/adsp/libscveCleverCapture_skel.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so:system/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libscveTextReco_skel.so:system/vendor/lib/rfsa/adsp/libscveTextReco_skel.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libsysmon_skel.so:system/vendor/lib/rfsa/adsp/libsysmon_skel.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/mmecns_module.so.1:system/vendor/lib/rfsa/adsp/mmecns_module.so.1 \
+    vendor/lge/ph2n/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
+    vendor/lge/ph2n/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/hw/gatekeeper.msm8937.so:system/vendor/lib64/hw/gatekeeper.msm8937.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/hw/keystore.msm8937.so:system/vendor/lib64/hw/keystore.msm8937.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libAlacSwDec.so:system/vendor/lib64/libAlacSwDec.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libApeSwDec.so:system/vendor/lib64/libApeSwDec.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libGPTEE.so:system/vendor/lib64/libGPTEE.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libMpeg4SwEncoder.so:system/vendor/lib64/libMpeg4SwEncoder.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libOmxAlacDec.so:system/vendor/lib64/libOmxAlacDec.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libOmxAlacDecSw.so:system/vendor/lib64/libOmxAlacDecSw.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:system/vendor/lib64/libOmxAmrwbplusDec.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libOmxApeDec.so:system/vendor/lib64/libOmxApeDec.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libOmxApeDecSw.so:system/vendor/lib64/libOmxApeDecSw.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libOmxEvrcDec.so:system/vendor/lib64/libOmxEvrcDec.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libOmxMux.so:system/vendor/lib64/libOmxMux.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libOmxQcelp13Dec.so:system/vendor/lib64/libOmxQcelp13Dec.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libOmxWmaDec.so:system/vendor/lib64/libOmxWmaDec.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libadsp_default_listener.so:system/vendor/lib64/libadsp_default_listener.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libaudiodevarb.so:system/vendor/lib64/libaudiodevarb.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libfastcvadsp_stub.so:system/vendor/lib64/libfastcvadsp_stub.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libfastcvopt.so:system/vendor/lib64/libfastcvopt.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/liblistenjni.so:system/vendor/lib64/liblistenjni.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/liblistensoundmodel2.so:system/vendor/lib64/liblistensoundmodel2.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libmmsw_detail_enhancement.so:system/vendor/lib64/libmmsw_detail_enhancement.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libmmsw_math.so:system/vendor/lib64/libmmsw_math.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libmmsw_opencl.so:system/vendor/lib64/libmmsw_opencl.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libmmsw_platform.so:system/vendor/lib64/libmmsw_platform.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libqti-at.so:system/vendor/lib64/libqti-at.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libqti-wl.so:system/vendor/lib64/libqti-wl.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libsecureuisvc_jni.so:system/vendor/lib64/libsecureuisvc_jni.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
+    vendor/lge/ph2n/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so
+
+PRODUCT_PACKAGES += \
+    libtime_genoff \
+    TimeService
+PRODUCT_COPY_FILES += \
+    vendor/lge/ph2n/proprietary/bin/fingerprintd:system/bin/fingerprintd \
+    vendor/lge/ph2n/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    vendor/lge/ph2n/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/lge/ph2n/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
+    vendor/lge/ph2n/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/lge/ph2n/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/lge/ph2n/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/lge/ph2n/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/lge/ph2n/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
     vendor/lge/ph2n/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
@@ -40,8 +280,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ph2n/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
     vendor/lge/ph2n/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/lge/ph2n/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
-    vendor/lge/ph2n/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
-    vendor/lge/ph2n/proprietary/etc/camera/csidtg_chromatix.xml:system/etc/camera/csidtg_chromatix.xml \
     vendor/lge/ph2n/proprietary/etc/camera/film/0_film.dat:system/etc/camera/film/0_film.dat \
     vendor/lge/ph2n/proprietary/etc/camera/film/10_film.dat:system/etc/camera/film/10_film.dat \
     vendor/lge/ph2n/proprietary/etc/camera/film/1_film.dat:system/etc/camera/film/1_film.dat \
@@ -57,46 +295,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ph2n/proprietary/etc/camera/hi1332_ofilm_chromatix.xml:system/etc/camera/hi1332_ofilm_chromatix.xml \
     vendor/lge/ph2n/proprietary/etc/camera/hi1332_sunny_chromatix.xml:system/etc/camera/hi1332_sunny_chromatix.xml \
     vendor/lge/ph2n/proprietary/etc/camera/hi553_chromatix.xml:system/etc/camera/hi553_chromatix.xml \
-    vendor/lge/ph2n/proprietary/etc/camera/hi553_lv9_chromatix.xml:system/etc/camera/hi553_lv9_chromatix.xml \
     vendor/lge/ph2n/proprietary/etc/camera/hi842_chromatix.xml:system/etc/camera/hi842_chromatix.xml \
     vendor/lge/ph2n/proprietary/etc/camera/imx234_chromatix.xml:system/etc/camera/imx234_chromatix.xml \
-    vendor/lge/ph2n/proprietary/etc/camera/imx258_bear_chromatix.xml:system/etc/camera/imx258_bear_chromatix.xml \
-    vendor/lge/ph2n/proprietary/etc/camera/imx258_chromatix.xml:system/etc/camera/imx258_chromatix.xml \
-    vendor/lge/ph2n/proprietary/etc/camera/imx258_mono_bear_chromatix.xml:system/etc/camera/imx258_mono_bear_chromatix.xml \
-    vendor/lge/ph2n/proprietary/etc/camera/imx298_gt24c64_chromatix.xml:system/etc/camera/imx298_gt24c64_chromatix.xml \
-    vendor/lge/ph2n/proprietary/etc/camera/imx362_chromatix_bear.xml:system/etc/camera/imx362_chromatix_bear.xml \
-    vendor/lge/ph2n/proprietary/etc/camera/imx378_chromatix.xml:system/etc/camera/imx378_chromatix.xml \
     vendor/lge/ph2n/proprietary/etc/camera/mn34153_chromatix.xml:system/etc/camera/mn34153_chromatix.xml \
     vendor/lge/ph2n/proprietary/etc/camera/ov7251_chromatix.xml:system/etc/camera/ov7251_chromatix.xml \
-    vendor/lge/ph2n/proprietary/etc/camera/ov8858_chromatix.xml:system/etc/camera/ov8858_chromatix.xml \
-    vendor/lge/ph2n/proprietary/etc/camera/s5k2l7_8953_chromatix.xml:system/etc/camera/s5k2l7_8953_chromatix.xml \
-    vendor/lge/ph2n/proprietary/etc/camera/s5k2l7_chromatix.xml:system/etc/camera/s5k2l7_chromatix.xml \
-    vendor/lge/ph2n/proprietary/etc/camera/s5k3p3_chromatix.xml:system/etc/camera/s5k3p3_chromatix.xml \
-    vendor/lge/ph2n/proprietary/etc/camera/s5k5e2_chromatix.xml:system/etc/camera/s5k5e2_chromatix.xml \
     vendor/lge/ph2n/proprietary/etc/camera/s5k5e8_cowell_chromatix.xml:system/etc/camera/s5k5e8_cowell_chromatix.xml \
     vendor/lge/ph2n/proprietary/etc/camera/s5k5e8_sunny_chromatix.xml:system/etc/camera/s5k5e8_sunny_chromatix.xml \
-    vendor/lge/ph2n/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
-    vendor/lge/ph2n/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/lge/ph2n/proprietary/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/etc/cne/wqeclient/ATT/ATT_profile1.xml \
-    vendor/lge/ph2n/proprietary/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/etc/cne/wqeclient/ATT/ATT_profile2.xml \
-    vendor/lge/ph2n/proprietary/etc/cne/wqeclient/ATT/ATT_profile3.xml:system/etc/cne/wqeclient/ATT/ATT_profile3.xml \
-    vendor/lge/ph2n/proprietary/etc/cne/wqeclient/ATT/ATT_profile4.xml:system/etc/cne/wqeclient/ATT/ATT_profile4.xml \
-    vendor/lge/ph2n/proprietary/etc/cne/wqeclient/ROW/ROW_profile1.xml:system/etc/cne/wqeclient/ROW/ROW_profile1.xml \
-    vendor/lge/ph2n/proprietary/etc/cne/wqeclient/ROW/ROW_profile2.xml:system/etc/cne/wqeclient/ROW/ROW_profile2.xml \
-    vendor/lge/ph2n/proprietary/etc/cne/wqeclient/ROW/ROW_profile3.xml:system/etc/cne/wqeclient/ROW/ROW_profile3.xml \
-    vendor/lge/ph2n/proprietary/etc/cne/wqeclient/ROW/ROW_profile4.xml:system/etc/cne/wqeclient/ROW/ROW_profile4.xml \
-    vendor/lge/ph2n/proprietary/etc/cne/wqeclient/ROW/ROW_profile5.xml:system/etc/cne/wqeclient/ROW/ROW_profile5.xml \
-    vendor/lge/ph2n/proprietary/etc/cne/wqeclient/VZW/VZW_profile1.xml:system/etc/cne/wqeclient/VZW/VZW_profile1.xml \
-    vendor/lge/ph2n/proprietary/etc/cne/wqeclient/VZW/VZW_profile2.xml:system/etc/cne/wqeclient/VZW/VZW_profile2.xml \
-    vendor/lge/ph2n/proprietary/etc/cne/wqeclient/VZW/VZW_profile3.xml:system/etc/cne/wqeclient/VZW/VZW_profile3.xml \
-    vendor/lge/ph2n/proprietary/etc/cne/wqeclient/VZW/VZW_profile4.xml:system/etc/cne/wqeclient/VZW/VZW_profile4.xml \
-    vendor/lge/ph2n/proprietary/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/etc/cne/wqeclient/VZW/VZW_profile5.xml \
-    vendor/lge/ph2n/proprietary/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/etc/cne/wqeclient/VZW/VZW_profile6.xml \
-    vendor/lge/ph2n/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/lge/ph2n/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
-    vendor/lge/ph2n/proprietary/etc/drc/drc_cfg_5.1.txt:system/etc/drc/drc_cfg_5.1.txt \
-    vendor/lge/ph2n/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
-    vendor/lge/ph2n/proprietary/etc/firmware/DE.o.msm8937:system/etc/firmware/DE.o.msm8937 \
     vendor/lge/ph2n/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
     vendor/lge/ph2n/proprietary/etc/firmware/cpp_firmware_v1_12_0.fw:system/etc/firmware/cpp_firmware_v1_12_0.fw \
     vendor/lge/ph2n/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
@@ -117,26 +321,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ph2n/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
     vendor/lge/ph2n/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/lge/ph2n/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
-    vendor/lge/ph2n/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
-    vendor/lge/ph2n/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/lge/ph2n/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
-    vendor/lge/ph2n/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/lge/ph2n/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/lge/ph2n/proprietary/etc/sap.conf:system/etc/sap.conf \
-    vendor/lge/ph2n/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
-    vendor/lge/ph2n/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
-    vendor/lge/ph2n/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
-    vendor/lge/ph2n/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/lge/ph2n/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/lge/ph2n/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/lge/ph2n/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
-    vendor/lge/ph2n/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/lge/ph2n/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/lge/ph2n/proprietary/lib/hw/fingerprint.msm8937.so:system/lib/hw/fingerprint.msm8937.so \
     vendor/lge/ph2n/proprietary/lib/libHDR.so:system/lib/libHDR.so \
-    vendor/lge/ph2n/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
-    vendor/lge/ph2n/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
-    vendor/lge/ph2n/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/lge/ph2n/proprietary/lib/libarcsoft_beauty_shot.so:system/lib/libarcsoft_beauty_shot.so \
     vendor/lge/ph2n/proprietary/lib/libfilm_emulation.so:system/lib/libfilm_emulation.so \
     vendor/lge/ph2n/proprietary/lib/libfpfactory.so:system/lib/libfpfactory.so \
@@ -146,71 +334,16 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ph2n/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lge/ph2n/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
     vendor/lge/ph2n/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/lge/ph2n/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
-    vendor/lge/ph2n/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/lge/ph2n/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
-    vendor/lge/ph2n/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
-    vendor/lge/ph2n/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
-    vendor/lge/ph2n/proprietary/vendor/bin/qseeproxysampledaemon:system/vendor/bin/qseeproxysampledaemon \
-    vendor/lge/ph2n/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/lge/ph2n/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/lge/ph2n/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/lge/ph2n/proprietary/vendor/lib/hw/activity_recognition.msm8937.so:system/vendor/lib/hw/activity_recognition.msm8937.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/hw/gatekeeper.msm8937.so:system/vendor/lib/hw/gatekeeper.msm8937.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/hw/keystore.msm8937.so:system/vendor/lib/hw/keystore.msm8937.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/hw/sound_trigger.primary.msm8937.so:system/vendor/lib/hw/sound_trigger.primary.msm8937.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libAlacSwDec.so:system/vendor/lib/libAlacSwDec.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libApeSwDec.so:system/vendor/lib/libApeSwDec.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libDxHdcp.so:system/vendor/lib/libDxHdcp.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libGPTEE.so:system/vendor/lib/libGPTEE.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libGPreqcancel.so:system/vendor/lib/libGPreqcancel.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libGPreqcancel_svc.so:system/vendor/lib/libGPreqcancel_svc.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libImageCorrectionWrapper.so:system/vendor/lib/libImageCorrectionWrapper.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libMpeg4SwEncoder.so:system/vendor/lib/libMpeg4SwEncoder.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libOmxAlacDec.so:system/vendor/lib/libOmxAlacDec.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libOmxAlacDecSw.so:system/vendor/lib/libOmxAlacDecSw.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libOmxApeDec.so:system/vendor/lib/libOmxApeDec.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libOmxApeDecSw.so:system/vendor/lib/libOmxApeDecSw.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libOmxVideoDSMode.so:system/vendor/lib/libOmxVideoDSMode.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libSecureExtAuthJNI.so:system/vendor/lib/libSecureExtAuthJNI.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libactuator_dw9714a.so:system/vendor/lib/libactuator_dw9714a.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libactuator_dw9716.so:system/vendor/lib/libactuator_dw9716.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libactuator_dw9718.so:system/vendor/lib/libactuator_dw9718.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libactuator_dw9763.so:system/vendor/lib/libactuator_dw9763.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libadm.so:system/vendor/lib/libadm.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libadpcmdec.so:system/vendor/lib/libadpcmdec.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libadsp_default_listener.so:system/vendor/lib/libadsp_default_listener.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libaudiodevarb.so:system/vendor/lib/libaudiodevarb.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libaudiohookclient.so:system/vendor/lib/libaudiohookclient.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libaudioparsers.so:system/vendor/lib/libaudioparsers.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libavenhancements.so:system/vendor/lib/libavenhancements.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
@@ -398,36 +531,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ph2n/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_vt.so:system/vendor/lib/libchromatix_s5k5e8_sunny_vt.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_zsl_preview.so:system/vendor/lib/libchromatix_s5k5e8_sunny_zsl_preview.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_zsl_video.so:system/vendor/lib/libchromatix_s5k5e8_sunny_zsl_video.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libcsm_data.so:system/vendor/lib/libcsm_data.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libdrc.so:system/vendor/lib/libdrc.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libesepm.so:system/vendor/lib/libesepm.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libfastrpc_aue_stub.so:system/vendor/lib/libfastrpc_aue_stub.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libfastrpc_utf_stub.so:system/vendor/lib/libfastrpc_utf_stub.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libflash_front.so:system/vendor/lib/libflash_front.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libjni_dualcamera.so:system/vendor/lib/libjni_dualcamera.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/liblistensoundmodel2.so:system/vendor/lib/liblistensoundmodel2.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libmdsprpc.so:system/vendor/lib/libmdsprpc.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera2_dcrf.so:system/vendor/lib/libmmcamera2_dcrf.so \
@@ -466,7 +575,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_hi842_eeprom.so:system/vendor/lib/libmmcamera_hi842_eeprom.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_imx234.so:system/vendor/lib/libmmcamera_imx234.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_imx258.so:system/vendor/lib/libmmcamera_imx258.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_isp_abf40.so:system/vendor/lib/libmmcamera_isp_abf40.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:system/vendor/lib/libmmcamera_isp_bcc40.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:system/vendor/lib/libmmcamera_isp_be_stats44.so \
@@ -503,22 +611,17 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_isp_wb40.so:system/vendor/lib/libmmcamera_isp_wb40.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_lgit_hi1332_eeprom.so:system/vendor/lib/libmmcamera_lgit_hi1332_eeprom.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_lgit_imx234_eeprom.so:system/vendor/lib/libmmcamera_lgit_imx234_eeprom.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_lgit_imx258_eeprom.so:system/vendor/lib/libmmcamera_lgit_imx258_eeprom.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_m24c32_hi553_eeprom.so:system/vendor/lib/libmmcamera_m24c32_hi553_eeprom.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_mn34153.so:system/vendor/lib/libmmcamera_mn34153.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_ofilm_hi1332_eeprom.so:system/vendor/lib/libmmcamera_ofilm_hi1332_eeprom.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_ov8858.so:system/vendor/lib/libmmcamera_ov8858.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_ov8858_otp.so:system/vendor/lib/libmmcamera_ov8858_otp.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_paaf_lib.so:system/vendor/lib/libmmcamera_paaf_lib.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_ppeiscore.so:system/vendor/lib/libmmcamera_ppeiscore.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_quadracfa.so:system/vendor/lib/libmmcamera_quadracfa.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_s5k3p3.so:system/vendor/lib/libmmcamera_s5k3p3.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_s5k5e2_eeprom.so:system/vendor/lib/libmmcamera_s5k5e2_eeprom.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_s5k5e8_cowell.so:system/vendor/lib/libmmcamera_s5k5e8_cowell.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_s5k5e8_sunny.so:system/vendor/lib/libmmcamera_s5k5e8_sunny.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
@@ -531,67 +634,18 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:system/vendor/lib/libmmcamera_tuning_lookup.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libmmi.so:system/vendor/lib/libmmi.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libmmipstreamnetwork.so:system/vendor/lib/libmmipstreamnetwork.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libmmparser_lite.so:system/vendor/lib/libmmparser_lite.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmsw_detail_enhancement.so:system/vendor/lib/libmmsw_detail_enhancement.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmsw_math.so:system/vendor/lib/libmmsw_math.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmsw_opencl.so:system/vendor/lib/libmmsw_opencl.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libmmsw_platform.so:system/vendor/lib/libmmsw_platform.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libnative_audio_latency_jni.so:system/vendor/lib/libnative_audio_latency_jni.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libomx-dts.so:system/vendor/lib/libomx-dts.so \
     vendor/lge/ph2n/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libqisl.so:system/vendor/lib/libqisl.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libqti-at.so:system/vendor/lib/libqti-at.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libqti-gt.so:system/vendor/lib/libqti-gt.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libqti-wl.so:system/vendor/lib/libqti-wl.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libremosaic_daemon.so:system/vendor/lib/libremosaic_daemon.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libscveBlobDescriptor.so:system/vendor/lib/libscveBlobDescriptor.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libscveBlobDescriptor_stub.so:system/vendor/lib/libscveBlobDescriptor_stub.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libscveCleverCapture.so:system/vendor/lib/libscveCleverCapture.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libscveCleverCapture_stub.so:system/vendor/lib/libscveCleverCapture_stub.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libscveCommon.so:system/vendor/lib/libscveCommon.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libscveCommon_stub.so:system/vendor/lib/libscveCommon_stub.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libscveFaceRecognition.so:system/vendor/lib/libscveFaceRecognition.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libscveImageCloning.so:system/vendor/lib/libscveImageCloning.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libscveImageCorrection.so:system/vendor/lib/libscveImageCorrection.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libscveImageRemoval.so:system/vendor/lib/libscveImageRemoval.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libscveMotionVector.so:system/vendor/lib/libscveMotionVector.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libscveObjectMatting.so:system/vendor/lib/libscveObjectMatting.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libscveObjectMatting_stub.so:system/vendor/lib/libscveObjectMatting_stub.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libscveObjectSegmentation.so:system/vendor/lib/libscveObjectSegmentation.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libscveObjectSegmentation_stub.so:system/vendor/lib/libscveObjectSegmentation_stub.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libscveObjectTracker.so:system/vendor/lib/libscveObjectTracker.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libscveObjectTracker_stub.so:system/vendor/lib/libscveObjectTracker_stub.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libscvePanorama.so:system/vendor/lib/libscvePanorama.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libscvePanorama_lite.so:system/vendor/lib/libscvePanorama_lite.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libscveTextReco.so:system/vendor/lib/libscveTextReco.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libscveTextRecoPostProcessing.so:system/vendor/lib/libscveTextRecoPostProcessing.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libscveTextReco_stub.so:system/vendor/lib/libscveTextReco_stub.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libsdsprpc.so:system/vendor/lib/libsdsprpc.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libsensor_lge_cal.so:system/vendor/lib/libsensor_lge_cal.so \
@@ -599,156 +653,18 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ph2n/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libsensor_thresh.so:system/vendor/lib/libsensor_thresh.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libsi.so:system/vendor/lib/libsi.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libswvdec.so:system/vendor/lib/libswvdec.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/lge/ph2n/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libwbc_jni.so:system/vendor/lib/libwbc_jni.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/AlacDecoderModule.so.1:system/vendor/lib/rfsa/adsp/AlacDecoderModule.so.1 \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/ApeDecoderModule.so.1:system/vendor/lib/rfsa/adsp/ApeDecoderModule.so.1 \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/AudioSphereModule.so.1:system/vendor/lib/rfsa/adsp/AudioSphereModule.so.1 \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/DTS_HPX_MODULE.so.1:system/vendor/lib/rfsa/adsp/DTS_HPX_MODULE.so.1 \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/DolbyMobileModule.so.1:system/vendor/lib/rfsa/adsp/DolbyMobileModule.so.1 \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/DolbySurroundModule.so.1:system/vendor/lib/rfsa/adsp/DolbySurroundModule.so.1 \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/EtsiAmrWbPlusDecModule.so.1:system/vendor/lib/rfsa/adsp/EtsiAmrWbPlusDecModule.so.1 \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/EtsiEaacPlusEncAndCmnModule.so.1:system/vendor/lib/rfsa/adsp/EtsiEaacPlusEncAndCmnModule.so.1 \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/FlacDecoderModule.so.1:system/vendor/lib/rfsa/adsp/FlacDecoderModule.so.1 \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/HeaacDecoderModule.so.1:system/vendor/lib/rfsa/adsp/HeaacDecoderModule.so.1 \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/SAPlusCmnModule.so.1:system/vendor/lib/rfsa/adsp/SAPlusCmnModule.so.1 \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/SrsTruMediaModule.so.1:system/vendor/lib/rfsa/adsp/SrsTruMediaModule.so.1 \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/VorbisDecoderModule.so.1:system/vendor/lib/rfsa/adsp/VorbisDecoderModule.so.1 \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/WmaProDecoderModule.so.1:system/vendor/lib/rfsa/adsp/WmaProDecoderModule.so.1 \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/WmaStdDecoderModule.so.1:system/vendor/lib/rfsa/adsp/WmaStdDecoderModule.so.1 \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/dummylibdspCV_skel.so:system/vendor/lib/rfsa/adsp/dummylibdspCV_skel.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/dummylibdspCV_skel_intermediate.so:system/vendor/lib/rfsa/adsp/dummylibdspCV_skel_intermediate.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/dummylibfastcvadsp.so:system/vendor/lib/rfsa/adsp/dummylibfastcvadsp.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/dummylibfastcvadsp_intermediate.so:system/vendor/lib/rfsa/adsp/dummylibfastcvadsp_intermediate.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/fastrpc_shell_0:system/vendor/lib/rfsa/adsp/fastrpc_shell_0 \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/fluence_voiceplus_module.so.1:system/vendor/lib/rfsa/adsp/fluence_voiceplus_module.so.1 \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so:system/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so:system/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libadsp_jpege_skel.so:system/vendor/lib/rfsa/adsp/libadsp_jpege_skel.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libobjectMattingApp_skel.so:system/vendor/lib/rfsa/adsp/libobjectMattingApp_skel.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so:system/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libscveCleverCapture_skel.so:system/vendor/lib/rfsa/adsp/libscveCleverCapture_skel.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so:system/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libscveTextReco_skel.so:system/vendor/lib/rfsa/adsp/libscveTextReco_skel.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/libsysmon_skel.so:system/vendor/lib/rfsa/adsp/libsysmon_skel.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/rfsa/adsp/mmecns_module.so.1:system/vendor/lib/rfsa/adsp/mmecns_module.so.1 \
     vendor/lge/ph2n/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/lge/ph2n/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-    vendor/lge/ph2n/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/lge/ph2n/proprietary/vendor/lib64/hw/activity_recognition.msm8937.so:system/vendor/lib64/hw/activity_recognition.msm8937.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/hw/gatekeeper.msm8937.so:system/vendor/lib64/hw/gatekeeper.msm8937.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/hw/keystore.msm8937.so:system/vendor/lib64/hw/keystore.msm8937.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libAlacSwDec.so:system/vendor/lib64/libAlacSwDec.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libApeSwDec.so:system/vendor/lib64/libApeSwDec.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libGPTEE.so:system/vendor/lib64/libGPTEE.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libMpeg4SwEncoder.so:system/vendor/lib64/libMpeg4SwEncoder.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libOmxAlacDec.so:system/vendor/lib64/libOmxAlacDec.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libOmxAlacDecSw.so:system/vendor/lib64/libOmxAlacDecSw.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:system/vendor/lib64/libOmxAmrwbplusDec.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libOmxApeDec.so:system/vendor/lib64/libOmxApeDec.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libOmxApeDecSw.so:system/vendor/lib64/libOmxApeDecSw.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libOmxEvrcDec.so:system/vendor/lib64/libOmxEvrcDec.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libOmxMux.so:system/vendor/lib64/libOmxMux.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libOmxQcelp13Dec.so:system/vendor/lib64/libOmxQcelp13Dec.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libOmxWmaDec.so:system/vendor/lib64/libOmxWmaDec.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libadsp_default_listener.so:system/vendor/lib64/libadsp_default_listener.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libaudiodevarb.so:system/vendor/lib64/libaudiodevarb.so \
     vendor/lge/ph2n/proprietary/vendor/lib64/libbt-vendor.so:system/vendor/lib64/libbt-vendor.so \
     vendor/lge/ph2n/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libdpmtcm.so:system/vendor/lib64/libdpmtcm.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libfastcvadsp_stub.so:system/vendor/lib64/libfastcvadsp_stub.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libfastcvopt.so:system/vendor/lib64/libfastcvopt.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/liblistenjni.so:system/vendor/lib64/liblistenjni.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/liblistensoundmodel2.so:system/vendor/lib64/liblistensoundmodel2.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libmmsw_detail_enhancement.so:system/vendor/lib64/libmmsw_detail_enhancement.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libmmsw_math.so:system/vendor/lib64/libmmsw_math.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libmmsw_opencl.so:system/vendor/lib64/libmmsw_opencl.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libmmsw_platform.so:system/vendor/lib64/libmmsw_platform.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libqti-at.so:system/vendor/lib64/libqti-at.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libqti-wl.so:system/vendor/lib64/libqti-wl.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libsecureuisvc_jni.so:system/vendor/lib64/libsecureuisvc_jni.so \
     vendor/lge/ph2n/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/lge/ph2n/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/lge/ph2n/proprietary/vendor/lib64/libsubsystem_control.so:system/vendor/lib64/libsubsystem_control.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
-    vendor/lge/ph2n/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/lge/ph2n/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/lge/ph2n/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so
-
-PRODUCT_PACKAGES += \
-    libtime_genoff \
-    TimeService \
-    CNEService \
-    QtiTetherService \
-    dpmserviceapp
